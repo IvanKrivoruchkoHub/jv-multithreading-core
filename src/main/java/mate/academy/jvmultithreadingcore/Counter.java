@@ -1,13 +1,9 @@
 package mate.academy.jvmultithreadingcore;
 
 public class Counter {
-    int value;
+    private int value;
 
-    public Counter() {
-        this.value = 0;
-    }
-
-    public int  incrementValue() {
+    public int incrementValue() {
         return ++value;
     }
 }

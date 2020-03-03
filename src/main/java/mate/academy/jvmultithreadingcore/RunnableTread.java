@@ -1,7 +1,7 @@
 package mate.academy.jvmultithreadingcore;
 
 public class RunnableTread implements Runnable {
-    Thread thread;
+    private Thread thread;
     private Counter counter;
     private String name;
 
